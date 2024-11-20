@@ -73,4 +73,17 @@ public class Date
         }
         return this.equals(date);
     }
+    public int latestDate(Date date)
+    {
+        if (date == null){return -999;}
+        Date otherDate = date;
+        if(this.year > otherDate.year) {return 1;}
+        if(this.year < otherDate.year) {return -1;}
+        if(this.month > otherDate.month) {return 1;}
+        if(this.month < otherDate.month) {return -1;}
+        if(this.day > otherDate.day) {return 1;}
+        if(this.day < otherDate.day) {return -1;}
+        return  0;
+
+    }
 }
