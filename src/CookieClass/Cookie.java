@@ -32,7 +32,7 @@ public class Cookie {
     }
 
     public void setHasGluten(boolean hasGluten) {
-        this.hasGluten = hasGluten;
+            this.hasGluten = hasGluten;
     }
 
     public void setEggCount(int eggCount) {
