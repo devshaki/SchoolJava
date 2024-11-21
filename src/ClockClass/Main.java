@@ -19,5 +19,6 @@ public class Main {
         //4.6
         System.out.println("clock after reset");
         c1.showClock();
+        System.out.println("this should be 0|0|0");
     }
 }
